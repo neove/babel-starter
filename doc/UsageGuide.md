@@ -7,7 +7,7 @@ npm install @babel/core @babel/cli -D
 * script 
 * npx
 
-# Polyfill (@babel/polyfill)
+## Polyfill (@babel/polyfill)
 * 包含 core-js  和 regenerator runtime  两个模块
 * 支持使用内置函数 静态方法 实例方法 以及 generator
 * 会带来全局污染
