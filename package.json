@@ -1,0 +1,8 @@
+{
+  "name": "babel-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/neove/babel-starter.git",
+  "author": "lihe3 <lihe3@corp.beisencorp.com>",
+  "license": "MIT"
+}
