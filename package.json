@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/neove/babel-starter.git",
   "author": "lihe3 <lihe3@corp.beisencorp.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "compile":"yarn run clean && babel src/ --out-dir lib",
+    "clean":"rm -rf ./lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2"
+  }
 }
